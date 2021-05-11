@@ -79,38 +79,38 @@ class StudentDetailViewController: UIViewController, UITextViewDelegate, UITextF
         var flag = true
         
         if nameTextField.textColor == UIColor.red {
-            let alert = UIAlertController(title: "Ошибка ввода Имени. В поле должны содержаться только русские или английские символы без пробелов!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "Name input error. The field must contain only Russian or English characters without spaces!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
         else if nameTextField.text == "" {
-            let alert = UIAlertController(title: "Ошибка ввода Имени. Поле должно быть заполнено!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "Name input error. The field must be filled!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
         else if lastNameTextField.textColor == UIColor.red {
-            let alert = UIAlertController(title: "Ошибка ввода Фамилии. В поле должны содержаться только русские или английские символы без пробелов!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "LastName input error. The field must contain only Russian or English characters without spaces!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
         else if lastNameTextField.text == "" {
-            let alert = UIAlertController(title: "Ошибка ввода Фамилии. Поле должно быть заполнено!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "LastName input error. The field must be filled!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
         else if rateTextField.textColor == UIColor.red {
-            let alert = UIAlertController(title: "Ошибка ввода Среднего балла. В поле должно содержаться только целое число от 1 до 5 без пробелов!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "Error in entering the Average score. The field must contain only an integer from 1 to 5 without spaces!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
         else if rateTextField.text == "" {
-            let alert = UIAlertController(title: "Ошибка ввода Среднего балла. Поле должно быть заполнено!", message: nil, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Исправить", style: .cancel, handler: nil))
+            let alert = UIAlertController(title: "Error in entering the Average score. The field must be filled!", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Fix", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             flag = false
         }
