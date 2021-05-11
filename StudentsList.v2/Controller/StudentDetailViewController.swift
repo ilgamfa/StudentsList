@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class StudentDetailViewController: UIViewController, UITextViewDelegate {
+class StudentDetailViewController: UIViewController, UITextViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
@@ -18,6 +18,12 @@ class StudentDetailViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nameTextField.delegate = self
+        lastNameTextField.delegate = self
+        rateTextField.delegate = self
+        
+        
         if (selectedStudent != nil) {
             nameTextField.text = selectedStudent?.name
             lastNameTextField.text = selectedStudent?.lastName
@@ -25,7 +31,12 @@ class StudentDetailViewController: UIViewController, UITextViewDelegate {
         }
     }
 
-  
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        nameTextField.resignFirstResponder()
+        lastNameTextField.resignFirstResponder()
+        rateTextField.resignFirstResponder()
+        return true
+    }
     
    
     @IBAction func nameCheck(_ sender: UITextField) {
@@ -35,6 +46,7 @@ class StudentDetailViewController: UIViewController, UITextViewDelegate {
         } else {
             nameTextField.textColor = .red
         }
+        
     }
     
     @IBAction func lastNameCheck(_ sender: UITextField) {

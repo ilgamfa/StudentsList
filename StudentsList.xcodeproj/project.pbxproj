@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB098BC9264993A5007C33DE /* StudentsList.v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsList.v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB098BC9264993A5007C33DE /* StudentsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB098BCC264993A5007C33DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB098BCE264993A5007C33DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BB098BD0264993A5007C33DE /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		BB098BCA264993A5007C33DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB098BC9264993A5007C33DE /* StudentsList.v2.app */,
+				BB098BC9264993A5007C33DE /* StudentsList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB098BC8264993A5007C33DE /* StudentsList.v2 */ = {
+		BB098BC8264993A5007C33DE /* StudentsList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB098BE0264993A7007C33DE /* Build configuration list for PBXNativeTarget "StudentsList.v2" */;
+			buildConfigurationList = BB098BE0264993A7007C33DE /* Build configuration list for PBXNativeTarget "StudentsList" */;
 			buildPhases = (
 				BB098BC5264993A5007C33DE /* Sources */,
 				BB098BC6264993A5007C33DE /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = StudentsList.v2;
+			name = StudentsList;
 			productName = StudentsList.v2;
-			productReference = BB098BC9264993A5007C33DE /* StudentsList.v2.app */;
+			productReference = BB098BC9264993A5007C33DE /* StudentsList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB098BC4264993A5007C33DE /* Build configuration list for PBXProject "StudentsList.v2" */;
+			buildConfigurationList = BB098BC4264993A5007C33DE /* Build configuration list for PBXProject "StudentsList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB098BC8264993A5007C33DE /* StudentsList.v2 */,
+				BB098BC8264993A5007C33DE /* StudentsList */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ilgamfa.StudentsList-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = ilgamfa.StudentsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ilgamfa.StudentsList-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = ilgamfa.StudentsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB098BC4264993A5007C33DE /* Build configuration list for PBXProject "StudentsList.v2" */ = {
+		BB098BC4264993A5007C33DE /* Build configuration list for PBXProject "StudentsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB098BDE264993A7007C33DE /* Debug */,
@@ -379,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB098BE0264993A7007C33DE /* Build configuration list for PBXNativeTarget "StudentsList.v2" */ = {
+		BB098BE0264993A7007C33DE /* Build configuration list for PBXNativeTarget "StudentsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB098BE1264993A7007C33DE /* Debug */,
