@@ -11,6 +11,9 @@ import CoreData
 var studentList = [Student]()
 var selectedStudent: Student? = nil
 
+@available(iOS 10.0, *)
+@available(iOS 10.0, *)
+@available(iOS 10.0, *)
 class StudentTableViewController: UITableViewController {
     
     var firstLoad = true

@@ -8,6 +8,8 @@
 import UIKit
 import CoreData
 
+@available(iOS 10.0, *)
+@available(iOS 10.0, *)
 class StudentDetailViewController: UIViewController, UITextViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var nameTextField: UITextField!
@@ -73,7 +75,7 @@ class StudentDetailViewController: UIViewController, UITextViewDelegate, UITextF
     }
     
     
-    
+    @available(iOS 13.0, *)
     @IBAction func saveAction(_ sender: UIButton) {
         
         var flag = true
